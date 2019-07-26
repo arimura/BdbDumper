@@ -1,0 +1,57 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  BerkeleyDB-0.63
+    pathname: P/PM/PMQS/BerkeleyDB-0.63.tar.gz
+    provides:
+      BerkeleyDB 0.63
+      BerkeleyDB::Btree 0.63
+      BerkeleyDB::CDS::Lock 0.63
+      BerkeleyDB::Common 0.63
+      BerkeleyDB::Cursor 0.63
+      BerkeleyDB::Env 0.63
+      BerkeleyDB::Hash 0.63
+      BerkeleyDB::Heap 0.63
+      BerkeleyDB::Queue 0.63
+      BerkeleyDB::Recno 0.63
+      BerkeleyDB::Term 0.63
+      BerkeleyDB::Txn 0.63
+      BerkeleyDB::TxnMgr 0.63
+      BerkeleyDB::Unknown 0.63
+      BerkeleyDB::_tiedArray 0.63
+      BerkeleyDB::_tiedHash 0.63
+    requirements:
+      ExtUtils::MakeMaker 0
+  Data-MessagePack-1.00
+    pathname: S/SY/SYOHEX/Data-MessagePack-1.00.tar.gz
+    provides:
+      Data::MessagePack 1.00
+      Data::MessagePack::Boolean undef
+      Data::MessagePack::PP undef
+    requirements:
+      Devel::PPPort 3.19
+      ExtUtils::MakeMaker 6.59
+      ExtUtils::ParseXS 3.18
+      File::Copy::Recursive 0
+      Test::More 0.94
+      Test::Requires 0
+      XSLoader 0.02
+      perl 5.008001
+  File-Copy-Recursive-0.45
+    pathname: D/DM/DMUEY/File-Copy-Recursive-0.45.tar.gz
+    provides:
+      File::Copy::Recursive 0.45
+    requirements:
+      Cwd 0
+      ExtUtils::MakeMaker 0
+      File::Copy 0
+      File::Glob 0
+      File::Spec 0
+  Test-Requires-0.10
+    pathname: T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz
+    provides:
+      Test::Requires 0.10
+    requirements:
+      ExtUtils::MakeMaker 6.64
+      Test::Builder::Module 0
+      Test::More 0.47
+      perl 5.006
