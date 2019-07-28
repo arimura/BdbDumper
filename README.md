@@ -1,5 +1,5 @@
 # BdbDumper
-Berkley DB Dumper for our system.
+Berkley DB + msgpack Dumper for our system.
 
 ## Prerequisite
 - Carton
